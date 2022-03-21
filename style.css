@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+}
+.background-image{
+    background-attachment: fixed;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+}
+
+#head-main{
+    height: 40vh;
+    background-repeat: no-repeat;
+    opacity: 6;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2px;
+
+}
+
+.horizontal-list{
+    font-size: 20px;
+    margin-top: 1.5rem;
+    padding-left: 0px;
+    list-style: none;
+
+}
+.horizontal-list li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+.text-center{
+    text-align: center;
+}
+
+.nav-menu{
+    transition: color 0.5s, border-bottom 4s;
+}
+/* horizontal list ends */
+
+/* name and social icon */
+.my-name{
+  font-size: 2rem;  
+  color:rgb(115, 217, 243);
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+.my-name1{
+    font-size: 2rem;  
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+.horizontal-list li a i{
+
+    margin-top: -20px;
+}
+
+.contact{
+    height: 400px; 
+    width: 100vw;
+    /* margin-top:  40px;  */
+    margin-bottom: 5px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+    /* opacity:0.8; */
+    text-align: left;
+    display: flex;
+    /* position:relative; */
+    justify-content: space-around;
+}
+
+.section-headings{
+    width: auto;
+    /* padding:20px 10px; */
+    margin-top:30px;
+    font-weight: 400;
+    /* margin-left: 41vw; */
+    /* display: inline; */
+    /* border: 2px solid red; */
+    overflow: hidden;
+    }
+    
+    .section-headings span{
+        font-size: 18px;
+        color: #000000;
+        display: inline-block;
+        padding-top: 10px;
+        margin-left: 10px;
+        justify-content: center;
+    }
+
+.contact-me{
+    height: auto;
+    width:auto;
+    margin-top: 55px;
+    /* border: 2px solid red; */
+    /* display: inline; */
+
+}
+.mb-blue{
+    background-color: #000000;
+}
+
+.blue{
+    color: #2857a4;
+    font-size: 22px;
+    text-shadow: #000000;
+    font-weight: bold;
+}
+
+
+.image-shown{
+    display: flex;
+    justify-content:center;
+    height: 100px;
+    width: 100px;
+}
+
+.pic{
+    height: 50px;
+    width: 50px;
+
+    margin: 2px solid rgb(85, 9, 9);
+    
+}
